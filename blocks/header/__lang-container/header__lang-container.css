@@ -1,0 +1,7 @@
+.header__lang-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    align-self: end;
+    padding-bottom: 6px;
+}

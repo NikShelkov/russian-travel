@@ -1,0 +1,27 @@
+.footer__link-container {
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: repeat(5, max-content) 1fr;
+    gap: 18px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__link-container {
+        margin: 0 48px 24px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__link-container {
+        margin: 0 24px 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 32px;
+        margin: 0 16px;
+    }
+}

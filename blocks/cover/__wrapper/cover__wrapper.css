@@ -1,0 +1,8 @@
+.cover__wrapper {
+    margin: 92px auto;
+    padding-bottom: 62.5%;
+    background-image: url(../../../images/background.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
