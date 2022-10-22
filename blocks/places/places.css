@@ -1,6 +1,67 @@
 .places {
+    max-width: 984px;
+    margin: 0 auto;
+    display: grid;
+    gap: 80px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        max-width: 720px;
+        gap: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    .places {
+        max-width: 320px; 
+        gap: 50px;
+    }
+}
+
+/* стили секции при с внутренней оберткой */
+
+/* .places {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #FFFFFF;
+} */
+
+/* стили обертки в секции */ 
+
+/* .places__container {
+    max-width: 984px;
+    margin: 0 48px;
+    display: grid;
+    gap: 80px;
 }
+
+@media screen and (max-width: 1279px) {
+    .places__container {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__container {
+        margin: 0 24px;
+        max-width: 720px;
+        gap: 73px;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    .places__container {
+        margin: 0;
+        max-width: 320px; 
+        gap: 50px;
+    }
+} */ 
