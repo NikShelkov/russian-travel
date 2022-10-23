@@ -1,4 +1,4 @@
-header {
+.header {
     max-width: 1184px;
     margin: 28px auto 56px; /* cтиль контейнера */
     padding: 0 48px; /*стиль контейнера */
@@ -9,7 +9,6 @@ header {
 @media screen and (max-width: 1279px) {
     .header {
         margin-bottom: 48px;
-        padding: 0 48px;
     }
 }
 

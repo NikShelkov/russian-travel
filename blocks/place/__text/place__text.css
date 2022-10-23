@@ -1,5 +1,5 @@
 .place__text {
-    margin: 0;
+    margin: 0 0 26px;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 1023px) {
     .place__text {
+        margin-bottom: 25px;
         font-size: 16px;
         line-height: 163%;
     }

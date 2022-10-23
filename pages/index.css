@@ -34,14 +34,10 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__url-heading/_line-height-digit/place__url-heading_line-height-digit-start_px.css);
-@import url(../blocks/place/__url-heading/_line-height-digit/place__url-heading_line-height-digit-start_pct.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__text-container/place__text-container.css);
 @import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__text/_spacing-bottom-size/place__text_spacing-bottom-size_start-normal-to-large.css);
-@import url(../blocks/place/__text/_spacing-bottom-size/place__text_spacing-bottom-size_start-normal.css);
-@import url(../blocks/place/__text/_spacing-bottom-size/place__text_spacing-bottom-size_start-large-to-normal.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
