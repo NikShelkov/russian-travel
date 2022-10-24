@@ -6,6 +6,11 @@
     line-height: 163%;
 }
 
+/* Сброс отступ у последнего параграфа во всех контейнерах */
+.place__text:not(:has(+ p)) {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 1023px) {
     .place__text {
         margin-bottom: 25px;
